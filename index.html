@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: red; color: white; font-family: Arial, Helvetica, sans-serif;">
+    <style>
+            @keyframes colorChange {
+            0% {
+                background-color: red;
+            }
+            100% {
+                background-color: white;
+            }
+    }
+
+    body {
+        animation: colorChange 0.1s infinite; /* 5 seconds duration, loop infinitely */
+    }
+    </style>
+
+<h1>FUCK YOU GOT HACKED HAHAHAHAH</h1>
+<p>(just kidding i love you)</p>
+
+<script>
+    function teleportUser() {
+    // Set the URL to redirect to after 5 seconds
+    var redirectUrl = "https://www.youtube.com/watch?v=8NOGkJWm9Dk";
+
+    // Wait for 5 seconds before redirecting
+    setTimeout(function() {
+        // Redirect the user to the specified URL
+        window.location.href = redirectUrl;
+    }, 3000); // 5000 milliseconds = 5 seconds
+}
+
+// Call the function when the page loads
+window.onload = teleportUser;
+
+</script>    
+</body>
+</html>
